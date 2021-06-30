@@ -4,9 +4,12 @@
 }
 
 /* Styling the App component */
+
 .App {
   text-align: center;
 }
+
+/* ========================================================================= */
 
 /* Styling the Header component. */
 
@@ -67,11 +70,12 @@
   object-fit: cover;
 }
 
+/* ========================================================================= */
+
 /* Styling the AddCar coponent */
 
 .addCarComponentContainer {
   position: relative;
-  /* formContainer */
 }
 
 .addCarComponentHeading {
@@ -112,10 +116,7 @@
   border-radius: 5px;
   left: 1%;
   width: 98%;
-  /* border: solid #fff; */
   color: black;
-  /* display: flex;
-  flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
@@ -137,12 +138,17 @@
   transition: ease-in .5s;
 }
 
-
 .addCarImage, .updateCarImage, .updateMuultipleCarsImage {
   width: 100%;
   height: 1200px;
   object-fit: cover;
 }
+
+.addCarMessageAndButtonContainerParagraph{
+  text-decoration: underline;
+}
+
+/* ========================================================================= */
 
 /* Styling the update component */
 
@@ -164,10 +170,7 @@
   border-radius: 5px;
   left: 1%;
   width: 98%;
-  /* border: solid #fff; */
   color: #fff;
-  /* display: flex;
-  flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
@@ -187,6 +190,17 @@
   transition: ease-in .5s;
 }
 
+.updateInstructionParagraph{
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.updateCarMessageAndButtonContainerParagraph{
+  text-decoration: underline;
+}
+
+/* ========================================================================= */
+
 /* Styling the update multiple component */
 
 .updateMultipleComponentContainer{
@@ -199,9 +213,7 @@
   top: .1px;
   width: 90%;
   height: 50px;
-  /* left: 245px; */
   color: black;
-  /* background-color: #444444; */
   padding-left: 70px;
 }
 
@@ -219,17 +231,16 @@
 }
 
 .updateMultipleLabel{
-  /* background-color: black; */
   border-radius: 5px;
   padding: 1px;
 }
 
 .updateMultipleParagraph{
-  /* background-color: black; */
   border-radius: 5px;
   width: 22%;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: underline;
 }
 
 .updateMultipleFormContainer{
@@ -237,17 +248,19 @@
   top: 50px;
   border-radius: 5px;
   width: 100%;
-  /* border: solid #fff; */
   color: black;
-  /* display: flex;
-  flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* border: solid black; */
-  /* background-color: #444444; */
 }
+
+.updateMultipleInstructionsParagraph{
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+/* ========================================================================= */
 
 /* Styling the Remove car component */
 
@@ -261,16 +274,14 @@
   top: .1px;
   width: 90%;
   height: 50px;
-  /* left: 245px; */
   color: black;
-  /* background-color: black; */
   padding-left: 70px;
 }
 
 .removeCarLinkToHome{
   position: relative;
-  right: -170px;
-  top: -5px;
+  right: -160px;
+  top: 2px;
   font-size: 25px;
   color: black;
 }
@@ -286,16 +297,11 @@
   border-radius: 5px;
   
   width: 100%;
-  /* border: solid #fff; */
   color: black;
-  /* display: flex;
-  flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* border: solid black;
-  background-color: black; */
 }
 
 .removeCarInput{
@@ -309,6 +315,12 @@
   outline: none;
 }
 
+.removeButtonParagraph{
+  text-decoration: underline;
+}
+
+/* ========================================================================= */
+
 /* Styling the show cars component */
 
 .showCarsComponentContainer{
@@ -318,20 +330,17 @@
 
 .showCarsComponentHeading{
   text-decoration: underline;
-  /* position: absolute; */
   top: .1px;
   width: 90%;
   height: 50px;
-  /* left: 245px; */
   color: #fff;
-  /* background-color: black; */
   padding-left: 120px;
 }
 
 .showCarsLinkToHome{
   position: relative;
-  right: -280px;
-  top: -5px;
+  right: -240px;
+  top: -3px;
   font-size: 25px;
   color: #fff;
 }
@@ -347,27 +356,20 @@
   border-radius: 5px;
   
   width: 100%;
-  /* border: solid #fff; */
   color: black;
-  /* display: flex;
-  flex-direction: column; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* border: solid black;
-  background-color: black; */
 }
 
 .showCarsLabel{
-  /* background-color: black; */
   border-radius: 5px;
   padding: 1px;
   color: #fff;
 }
 
 .showCarsParagraph{
-  /* background-color: black; */
   border-radius: 5px;
   width: 29%;
   margin-left: auto;
@@ -395,15 +397,18 @@ thead, tr, th, tbody, td{
   padding: 5px;
 }
 
+/* ========================================================================= */
+
 /* Styling the specific search component */
 
 .specificSearchParagraph{
-  /* background-color: black; */
   border-radius: 5px;
   width: 33%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
   color: #fff;
+  text-decoration: underline;
 }
 
 .olderCarsTableDiv{
@@ -415,3 +420,4 @@ thead, tr, th, tbody, td{
   margin-top: 100px;
 }
 
+/* ========================================================================= */

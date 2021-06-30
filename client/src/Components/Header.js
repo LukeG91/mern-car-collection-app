@@ -1,11 +1,14 @@
+/* IMPORTING THE LIBRARIES, COMPONENTS AND STYLE SHEET NEEDED */
 import React from "react";
 import headerBackgroundImage from "../images/mainBackground.jpg";
 import "../App.css";
 
 function Header() {
+  /* Creating the header section which contains information relating to what the app does as well as 
+     links to the different pages on the website. */
   return (
     <div className="mainHeaderContainer">
-      <h1 className="headerComponentMainHeading">Welcome to my CRUD App:</h1>
+      <h1 className="headerComponentMainHeading">Cape Town Cars:</h1>
       <span className="headerComponentInstructions">
         This web app allows users to add, update, delete and read information
         relating to cars, this information is stored in a MongoDB.
